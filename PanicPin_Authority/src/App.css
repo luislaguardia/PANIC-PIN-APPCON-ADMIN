@@ -1,0 +1,178 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f5f7fa;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.stat-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  flex: 1;
+  margin-right: 1rem;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  height: 7rem;
+  justify-content: space-between;
+}
+
+.stat-text {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+
+.stat-text h2 {
+  text-align: start;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.stat-text p {
+  font-size: 3rem;
+  margin: 0;
+}
+.main-number {
+  font-size: 3cqmax;
+}
+
+.stat-change {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+.stat-change span {
+  background-color: green;
+  color: white;
+  padding: 0.3rem;
+  border-radius: 1rem;
+}
+
+.tables {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+}
+
+.live-alerts,
+.most-reported,
+.map {
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.live-alerts {
+  flex: 1;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: left;
+  padding: 1;
+  background-color: white;
+  font-weight: bold;
+}
+
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #f0f1f3;
+}
+
+.button {
+  padding: 5px 10px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 6rem;
+}
+
+.button-dispatch {
+  background-color: #ea638c;
+}
+
+.button-resolved {
+  background-color: #1890ff;
+}
+
+.button-default {
+  background-color: #d9d9d9;
+}
+
+.button-details {
+  background-color: lightblue;
+  margin-left: 1rem;
+}
+
+.pending {
+  color: #faad14;
+}
+
+.resolved {
+  color: #52c41a;
+}
+
+.ongoing {
+  color: #1890ff;
+}
+
+.map-placeholder {
+  height: 300px;
+  border-radius: 8px;
+}
